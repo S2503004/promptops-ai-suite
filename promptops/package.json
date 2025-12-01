@@ -1,0 +1,24 @@
+{
+  "name": "promptops",
+  "version": "0.1.0",
+  "description": "AI-driven PRD & Workflow Automation Suite (starter)",
+  "main": "src/cli/generate_prd.js",
+  "scripts": {
+    "start": "node src/cli/generate_prd.js",
+    "lint": "echo \"Add linting\""
+  },
+  "keywords": [
+    "prompt-engineering",
+    "prd",
+    "notion",
+    "trello",
+    "figma",
+    "openai"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "openai": "^4.0.0",
+    "node-fetch": "^3.0.0"
+  }
+}
